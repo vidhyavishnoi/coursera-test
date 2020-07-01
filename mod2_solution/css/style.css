@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	width: 100%;
+
+}
+
+/* for Large device */
+@media (min-width: 992px){
+	.col-lg-4{
+		border: 2px solid black;
+		float: left;
+		margin: 3px;
+	}
+	.col-lg-4{
+
+    width: 32.7%;
+    background-color: grey;
+}
+}
+/* for medium device */
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6 ,.col-md-12{
+		border: 2px solid black;
+		float: left;
+		margin: 3px;
+	}
+	.col-md-6{
+
+    width: 48.5%;
+    background-color: grey;
+}
+.col-md-12{
+	width: 98%;
+	background-color: grey;
+}
+}
+
+/* for small device */
+@media (max-width: 767px){
+	.col-sm-12{
+		border: 2px solid black;
+		margin: 5px;
+		background-color: grey;
+	}
+	.col-sm-12 {
+		width: 98%
+		background-color:grey;
+	}
+
+}
+/* 1st floating div (chicken) */
+.divbox {
+  text-align: center;
+  border-bottom: 1px;
+  background-color: lightpink;
+  float: right;
+  height: 50px;
+  width: 30%;
+  right: 50px;
+  border: 2px solid black;
+  border-right: 1px;
+  border-top: 1px;
+  font-family: cursive;
+}
+/* 2nd floating div (beef) */
+.divbox2 {
+	text-align: center;
+	border-bottom: 1px;
+  background-color: red;
+  float: right;
+  height: 50px;
+  width: 30%;
+  right: 50px;
+  border: 2px solid black;
+  border-right: 1px;
+  border-top: 1px;
+  font-family: cursive;
+}
+
+/* 3rd floating div (sushi) */
+.divbox3{
+	text-align: center;
+	border-bottom: 1px;
+  background-color: yellow;
+  float: right;
+  height: 50px;
+  width: 30%;
+  right: 50px;
+  border: 2px solid black;
+  border-right: 1px;
+  border-top: 1px;
+  font-family: cursive;
+}
+
+
+p {
+  padding-top:35px;
+  padding-left: 5px;
+  background-color:grey;
+  width: 100%;
+  height: 150px;
+  font-family: Helvetica;
+  color: black;
+  font-family: cursive;
+
+}
+
+.h2{
+	text-align: center;
+	color: black;
+	margin: 7%;
+}
+
+#h2{
+	text-align: center;
+	color: white;
+	margin: 7%;
+
+}
+
+.h1{
+  font-family: cursive;
+}
